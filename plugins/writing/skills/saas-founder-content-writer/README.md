@@ -38,7 +38,7 @@ It is **not** for ad creative, generic brand copy, or posts with no underlying s
 8. Writes an open that earns the next line
 
 **Phase 4: Review**
-9. Scores against a rubric (not-an-ad, specific, angle clear, platform fit, honest, human voice, strong open, image fit) and revises
+9. Scores against a rubric (not-an-ad, specific, angle clear, platform fit, honest, human voice, strong open, image fit) and revises — Xiaohongshu posts also get a one-pass virality-readiness check (cover hook, title pull, opening retention, save value, tag fit), and YouTube gets a one-pass click-readiness check (thumbnail hook, title pull, description hook, Shorts hygiene); both run in the single revise pass with no re-optimize loop
 10. Optionally saves the finalized draft — and any rendered cover/cards — to an Obsidian vault subfolder (`Founder Posts/`), opt-in and never to your own notes
 
 ## Image Generation

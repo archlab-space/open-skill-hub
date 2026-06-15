@@ -244,6 +244,33 @@ Before finalizing, check the draft against this rubric. Revise once if any line 
 | Strong open | First line earns the second. |
 | Image fit | Image added only when it earns its place; for Xiaohongshu, a cover is present and the card count is stated and content-derived (cover + one card per body unit, ≤ 18). Text/data graphics use HTML/CSS rendering; no fabricated screenshots. |
 
+#### Xiaohongshu virality-readiness check
+
+When the platform is Xiaohongshu, run this pass once — as part of the single revise above, not as a separate loop. It catches the structural misses that cap reach; it does **not** predict whether a note will go viral. Virality is decided by post-publish data (save rate, read-through, follows), so treat a failed line as "fix this obvious gap", never as a signal to keep re-optimizing.
+
+| Lever | Check |
+| --- | --- |
+| Cover hook | The cover alone stops the scroll and states the payoff in ≤ 2 seconds — it carries the hook, not just the title. |
+| Title pull | Leads with a concrete number or a curiosity gap the body actually pays off; no misleading clickbait. |
+| Opening retention | The first 1–2 lines give a reason to keep reading (a stake, a surprise, or the reader's exact problem) — they decide read-through. |
+| Save value | At least one thing worth saving: a concrete takeaway, a list, a checklist, or numbers the reader will want to return to. |
+| Tag fit | 5–10 tags that match what the target reader actually searches or browses, not generic catch-alls. |
+
+**Do not enter a re-score / re-optimize loop.** Repeated automated passes regress the draft toward safe, generic copy — the opposite of what earns reach. Do one revise pass, then ship and learn from real engagement.
+
+#### YouTube Shorts click-readiness check
+
+When the platform is YouTube, run this pass once — as part of the single revise above. It checks only the click surface this skill produces (title, thumbnail, description). **Retention is decided by the video itself, which is produced by the video pipeline and is out of scope here** — do not assess or claim anything about the video or script quality.
+
+| Lever | Check |
+| --- | --- |
+| Thumbnail hook | The 9:16 thumbnail reads in ≤ 2 seconds, ≤ 6 words, legible on a small screen. |
+| Title pull | ≤ ~70 chars, front-loads the keyword/hook; concrete or curiosity-driven, and payable by the video. |
+| Description hook | The first 1–2 lines stand alone before "…more" and earn the click. |
+| Shorts hygiene | 3–5 hashtags including `#Shorts`; links/CTAs live in the description, never the title. |
+
+Same rule: one revise pass, no re-score / re-optimize loop. Retention quality belongs to the video pipeline, not here.
+
 ### Step 9: Save To Vault (Optional)
 
 Saving is **opt-in only**. Generated drafts and any rendered images go to a dedicated subfolder in the user's vault — never into their daily note or any of their own notes.

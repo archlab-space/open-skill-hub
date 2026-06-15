@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.12.0] - 2026-06-15
+
+### Added
+- Step 8 gains two one-pass platform readiness checks that run inside the single revise pass:
+  - **Xiaohongshu virality-readiness check** (cover hook, title pull, opening retention, save value, tag fit). It catches structural misses rather than predicting virality, and forbids a re-score / re-optimize loop (which regresses drafts toward generic copy).
+  - **YouTube Shorts click-readiness check** (thumbnail hook, title pull, description hook, Shorts hygiene), scoped only to the click surface this skill produces — retention/script quality stays out of scope, owned by the video pipeline.
+
+  Both forbid a re-score / re-optimize loop. Synced the README Phase 4 summary.
+
 ## [0.11.0] - 2026-06-12
 
 ### Changed
