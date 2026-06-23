@@ -211,6 +211,8 @@ Useful hook patterns:
 
 Avoid generic AI phrasing such as "In today's fast-paced world", "game changer", "delve into", "unlock", "leverage", "it is important to note", and empty hype.
 
+When the post is in Chinese **and** the topic is AI / Agent / LLM / tech-frontier, also consult `chinese-ai-tech-posts.md` for language-specific hooks, sentence patterns, structures, templates, and posting timing. It supplements the Writing Principles for that locale and domain; for any other language or topic, ignore it.
+
 ### Step 6: Preserve Human Voice
 
 Make the writing sound like a person with a point of view.
@@ -407,6 +409,7 @@ Thread [template name]:
 ## Key Rules
 
 - Write in the language of the source material unless the user specifies otherwise.
+- For Chinese AI / Agent / LLM / tech-frontier posts, apply `chinese-ai-tech-posts.md` on top of the Writing Principles.
 - Account type and format are required inputs. Do not draft until both are confirmed.
 - Always run all three sub-tasks in Step 2 before drafting — even for long, detailed input.
 - If goal, audience, and tone are all unspecified, select the 3 best style combinations from the source material, draft and score all three, then present them for the user to choose from.
