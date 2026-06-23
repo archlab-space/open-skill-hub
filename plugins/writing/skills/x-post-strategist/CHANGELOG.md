@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.11.0] - 2026-06-23
+
+### Added
+- `chinese-ai-tech-posts.md`: a language-specific reference for writing Chinese AI / Agent / LLM / tech-frontier X posts — hook types, structures, high-reuse sentence patterns, 10 reusable templates, media/hashtag discipline, posting-timing heuristics, a pre-publish checklist, A/B test variables, and a trimmed study-sources list. English instructions with Chinese example strings, matching the skill's existing EN/ZH precedent.
+- Conditional pointer to the new reference from `SKILL.md` Step 5 and Key Rules; it applies only to Chinese AI/tech posts and supplements the Writing Principles.
+
 ## [0.10.0] - 2026-06-11
 
 ### Changed
