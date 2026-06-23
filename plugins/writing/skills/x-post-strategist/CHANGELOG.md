@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.12.0] - 2026-06-23
+
+### Changed
+- Decide drafting mode by **output length**, not account type. Long-form output (any thread, or a Premium single post) now produces one draft whose depth matches the source material, then iterates collaboratively — offer other angles for the user to opt into and/or propose specific improvements, revising until satisfied — instead of dumping multiple parallel drafts. Parallel multi-variant drafting (the 3-combinations / 2–3 drafts behavior) is now reserved for short Non-Premium single posts (≤ 280 chars).
+- Clarify Step 4 Premium guidance: "tight" means no filler, not necessarily short; match length to the material and default to a fuller treatment for long/rich/structured sources. Scope the "3 best style combinations" rule (Step 1 and Key Rules) to short Non-Premium single posts. Prevents reflexively under-using the Premium character budget on rich source material.
+
 ## [0.11.0] - 2026-06-23
 
 ### Added
