@@ -46,7 +46,7 @@ Do not proceed to Step 2 until both are confirmed.
 | Desired tone | Analytical, sharp, calm, technical, playful, contrarian, personal, executive, storytelling | Shapes voice. |
 | Style samples | 1–5 past X posts by the user | Lets you extract real voice patterns rather than guessing tone. Used in Step 6. |
 
-If goal, audience, and tone are all unspecified, read the source material and independently select the **3 best style combinations** (each with a goal, audience, and tone). Draft a post for each combination, score all three using the Step 9 rubric, and present them together for the user to choose from.
+If goal, audience, and tone are all unspecified, read the source material and independently select the **3 best style combinations** (each with a goal, audience, and tone). Draft a post for each combination, score all three using the Step 9 rubric, and present them together for the user to choose from. This applies to short Non-Premium single posts only; for long-form output (any thread or a Premium single post) produce one draft and offer other angles conversationally instead — see Step 7.
 
 ### Step 2: Enrich Context
 
@@ -166,7 +166,7 @@ Choose the smallest format that can carry the idea well.
 - Use a single post when the idea has one clear point, one timely observation, or one concise takeaway.
 - Use a thread when the source material has multiple claims, a process, a technical explanation, a story arc, or several useful examples.
 - For non-Premium accounts, each post must be ≤ **280 characters** (spaces and punctuation included). If the user confirmed "single post", compress the content to fit — cut, distil, and sharpen until it fits. Do not ask the user to switch to a thread.
-- For Premium accounts, posts may be up to **25,000 characters** — keep them tight. Do not use length as a substitute for editing.
+- For Premium accounts, posts may be up to **25,000 characters**. "Tight" means no filler — not necessarily short. Match length to the material: when the source is a long, rich, or structured document (a research report, deep-dive, or spec), default to a fuller, denser treatment that actually uses the material — do not reflexively compress it into a short post. Still cut every word that does not earn its place.
 
 **Thread narrative templates** — select one based on content type and name it in the output:
 
@@ -234,6 +234,16 @@ In both cases:
 - If the user wrote in a distinctive style, preserve that style unless it hurts clarity.
 
 ### Step 7: Produce Options
+
+First decide by **output length**, not by account type:
+
+**Long-form output — threads (any account) and Premium single posts:** do not auto-produce multiple parallel drafts. Produce one draft whose depth matches the source material, then collaborate to refine it:
+
+- Offer 1–3 other angles you think are worth trying; draft them only if the user asks.
+- And/or name specific parts of the current draft you would improve, and revise after the user agrees.
+- Iterate until the user is satisfied.
+
+**Short output — Non-Premium single posts (≤ 280 chars):** 2–3 parallel variants are cheap and useful, so the multi-draft behavior below applies.
 
 When goal, audience, and tone are all unspecified, independently select the 3 best style combinations from the source material. For each combination, state the goal, audience, and tone, then draft the post and include a score summary from the Step 9 rubric. Present all three together so the user can choose.
 
@@ -412,7 +422,8 @@ Thread [template name]:
 - For Chinese AI / Agent / LLM / tech-frontier posts, apply `chinese-ai-tech-posts.md` on top of the Writing Principles.
 - Account type and format are required inputs. Do not draft until both are confirmed.
 - Always run all three sub-tasks in Step 2 before drafting — even for long, detailed input.
-- If goal, audience, and tone are all unspecified, select the 3 best style combinations from the source material, draft and score all three, then present them for the user to choose from.
+- If goal, audience, and tone are all unspecified, select the 3 best style combinations from the source material, draft and score all three, then present them for the user to choose from (short Non-Premium single posts only; for long-form output produce one draft and offer angles conversationally — see Step 7).
+- For long-form output — a thread (any account) or a Premium single post — default to one draft whose depth matches the material; never reflexively produce a short post or multiple parallel variants. After drafting, offer other angles for the user to opt into and/or propose specific improvements, and revise iteratively until the user is satisfied. Parallel multi-variant drafting is reserved for short Non-Premium single posts.
 - Non-Premium single posts must not exceed 280 characters. Compress to fit — do not ask the user to switch to a thread.
 - Keep the final text publishable, not just instructive.
 - Do not make weak material sound more certain than it is.
